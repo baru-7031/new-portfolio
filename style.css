@@ -3,7 +3,7 @@
 }
 
 .left-section {
-    background: rgb(189,93,56);
+    background: rgb(7, 104, 168);
     max-height: 100vh;
     padding: 20px;
     display: flex;
@@ -22,10 +22,17 @@
 }
 
 .profile-img {
-    height: 160px;
-    width: 160px;
+    height: 180px;
+    width: 180px;
     border: 10px solid #ffffff33;
     border-radius: 50%;
+    filter: blur(1.5px);
+    transition: 2s;
+}
+
+.profile-img:hover {
+    filter: none;
+    
 }
 
 .nav-links {
@@ -43,6 +50,10 @@
     letter-spacing: 2px;
 }
 
+.nav-items:hover {
+    color: #080808;
+}
+
 .new-section {
     padding: 150px 40px;
     border-bottom: 1px solid black;
@@ -56,7 +67,7 @@
 }
 
 .surName {
-    color: rgb(189,93,56);
+    color: rgb(7, 104, 168);
 }
 
 .contact-info ul {
@@ -68,8 +79,8 @@
     cursor: pointer;
 }
 
-.email span {
-    color: rgb(189,93,56);
+.email a {
+    color: rgb(7, 104, 168);
     font-weight: 600;
 }
 
@@ -100,10 +111,23 @@
 }
 
 .social-icon:hover {
-    background: rgb(189,93,56);
+    background: rgb(7, 104, 168);
     color: #fff;
 }
 
 .new-section h1 {
     text-transform: uppercase;
+}
+
+.section-header {
+    color: rgb(7, 104, 168);
+}
+
+.project-links a {
+    text-decoration: none;
+    color: rgb(7, 104, 168);
+}
+
+.project-links a:hover {
+    color: #5a2121;
 }
