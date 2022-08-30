@@ -131,3 +131,11 @@
 .project-links a:hover {
     color: #5a2121;
 }
+
+.result-links {
+    display: flex;
+}
+
+.result-links h3 {
+    margin-right: 10px;
+}
