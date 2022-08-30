@@ -1,0 +1,109 @@
+.main-section{
+    height: 100vh;
+}
+
+.left-section {
+    background: rgb(189,93,56);
+    max-height: 100vh;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-section {
+    max-height: 100vh;
+    overflow-y: scroll;
+}
+
+.row {
+    height: 100%;
+    width: 100%;
+}
+
+.profile-img {
+    height: 160px;
+    width: 160px;
+    border: 10px solid #ffffff33;
+    border-radius: 50%;
+}
+
+.nav-links {
+    margin: 20px;
+}
+
+.nav-items {
+    color: white;
+    font-weight: 600;
+    display: block;
+    cursor: pointer;
+    text-align: end;
+    margin: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.new-section {
+    padding: 150px 40px;
+    border-bottom: 1px solid black;
+    min-height: 650px;
+}
+
+.name {
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.surName {
+    color: rgb(189,93,56);
+}
+
+.contact-info ul {
+    display: flex;
+}
+
+.email {
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.email span {
+    color: rgb(189,93,56);
+    font-weight: 600;
+}
+
+.summary {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.social-icons {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    display: flex;
+}
+
+.social-icon {
+    height: 50px;
+    width: 50px;
+    font-size: 24px;
+    color: #fff;
+    background: #646464;
+    margin-right: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    background: rgb(189,93,56);
+    color: #fff;
+}
+
+.new-section h1 {
+    text-transform: uppercase;
+}
